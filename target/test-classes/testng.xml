@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CheckingGetColorMethodTest" parallel="false">
+	<parameter name="inkContainerValue" value="100"/>
+	<parameter name="sizeLetter" value="5"/>
+
+	<test name="testColor">
+	<parameter name="color"  value="RED"/>
+	<classes>
+       <class name="CheckingGetColorMethodTest" />
+    </classes>
+  	</test>
+	
+	<test name="testOtherColor">
+	<parameter name="color"  value="BLUE"/>
+	<classes>
+       <class name="CheckingGetColorMethodTest" />
+    </classes>
+	</test>
+	
+	<test name="testColorNotSet">
+	<parameter name="color"  value=""/>
+	<classes>
+       <class name="CheckingGetColorMethodTest" />
+    </classes>
+	</test>
+</suite>

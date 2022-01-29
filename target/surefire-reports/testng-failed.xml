@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CheckingInkAmountAfterTypingTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="testInkAmountAfterTyping(failed)" verbose="0">
+    <classes>
+      <class name="CheckingInkAmountAfterTypingTest">
+        <methods>
+          <include name="testInkAmountAfterTyping" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- CheckingInkAmountAfterTypingTest -->
+    </classes>
+  </test> <!-- testInkAmountAfterTyping(failed) -->
+</suite> <!-- Failed suite [CheckingInkAmountAfterTypingTest] -->

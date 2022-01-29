@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CheckingIsWorkMethodTest" parallel="false">
+	<test name="testPenWorkability">
+	<classes>
+       <class name="CheckingIsWorkMethodTest" />
+    </classes>
+  	</test>
+	<test name="testPenWorkInability">
+	<classes>
+       <class name="CheckingIsWorkMethodTest" />
+    </classes>
+  	</test>
+</suite>

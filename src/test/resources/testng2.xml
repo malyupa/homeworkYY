@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CheckingWriteMethodPartOfWordTest" parallel="false">
+	<test name="testWritePartOfWord">
+	<classes>
+       <class name="CheckingWriteMethodPartOfWordTest" />
+    </classes>
+  	</test>
+</suite>
