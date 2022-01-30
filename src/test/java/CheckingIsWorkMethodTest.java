@@ -5,7 +5,7 @@ public class CheckingIsWorkMethodTest {
     public Object[][] parseValidData() {
         return new Object[][]{
                 {1},
-                {1000},
+                {999},
         };
     }
     @DataProvider
@@ -21,7 +21,6 @@ public class CheckingIsWorkMethodTest {
         Pen pen = new Pen(inkContainerValue);
         assert (pen.isWork());
     }
-
     @Test(dataProvider = "parseInvalidData")
     public void testPenWorkInability(int inkContainerValue) {
         Pen pen = new Pen(inkContainerValue);

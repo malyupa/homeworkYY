@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CheckingWriteMethodTest" parallel="false">
+	<test name="testReturnsCorrectWord">
+	<classes>
+       <class name="CheckingWriteMethodTest" />
+    </classes>
+  	</test>
+
+</suite>

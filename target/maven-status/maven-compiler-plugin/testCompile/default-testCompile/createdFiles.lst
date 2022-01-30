@@ -1,7 +1,5 @@
-CheckingWriteMethodCompleteWordTest.class
-CheckingWriteMethodEmptyInkTest.class
-CheckingDoSomethingElseMethodTest.class
 CheckingIsWorkMethodTest.class
+CheckingWorkMethodTestThrowsArithmExceptionTest.class
+CheckingWriteMethodTest.class
 CheckingGetColorMethodTest.class
-CheckingWriteMethodPartOfWordTest.class
-CheckingInkAmountAfterTypingTest.class
+CheckingDoSomethingElseMethodTest.class

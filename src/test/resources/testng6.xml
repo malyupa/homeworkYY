@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-  
-<suite name="CheckingDoSomethingElseMethodTest" parallel="false">
-	<test name="testNotNullResult">
-	<classes>
-       <class name="CheckingDoSomethingElseMethodTest" />
-    </classes>
-  	</test>
-</suite>

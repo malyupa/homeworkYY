@@ -1,6 +1,6 @@
 public class Pen {
     // сколько чернила в ручке
-    public int inkContainerValue = 1000;
+    private int inkContainerValue = 1000;
     // размер букв, которые пишутся ручкой
     private double sizeLetter = 1.0;
     // цвет ручки
@@ -44,8 +44,7 @@ public class Pen {
         return inkContainerValue > 0;
     }
 
-    public String doSomethingElse(){
-        return color;
+    public void doSomethingElse() {
+        System.out.println(color);
     }
-
 }

@@ -52,13 +52,10 @@
             <version>3.0.0-M5</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-                    <suiteXmlFile>src/test/resources/testng1.xml</suiteXmlFile>
-                    <suiteXmlFile>src/test/resources/testng2.xml</suiteXmlFile>
-                    <suiteXmlFile>src/test/resources/testng3.xml</suiteXmlFile>
-                    <suiteXmlFile>src/test/resources/testng4.xml</suiteXmlFile>
-                    <suiteXmlFile>src/test/resources/testng5.xml</suiteXmlFile>
-                    <suiteXmlFile>src/test/resources/testng6.xml</suiteXmlFile>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                    <suiteXmlFile>testng1.xml</suiteXmlFile>
+                    <suiteXmlFile>testng2.xml</suiteXmlFile>
+                    <suiteXmlFile>testng5.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>

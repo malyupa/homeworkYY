@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-  
-<suite name="CheckingInkAmountAfterTypingTest" parallel="false">
-	<test name="testInkAmountAfterTyping">
-	<classes>
-       <class name="CheckingInkAmountAfterTypingTest" />
-    </classes>
-  	</test>
-</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CheckingWriteMethodTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="testReturnsCorrectWord(failed)" verbose="0">
+    <classes>
+      <class name="CheckingWriteMethodTest">
+        <methods>
+          <include name="testReturnsCorrectWord" invocation-numbers="6 7"/>
+        </methods>
+      </class> <!-- CheckingWriteMethodTest -->
+    </classes>
+  </test> <!-- testReturnsCorrectWord(failed) -->
+</suite> <!-- Failed suite [CheckingWriteMethodTest] -->

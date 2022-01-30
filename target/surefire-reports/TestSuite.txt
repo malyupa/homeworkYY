@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.632 s <<< FAILURE! - in TestSuite
-CheckingGetColorMethodTest.testColor[100, 5.0, RED](1)  Time elapsed: 0.005 s  <<< FAILURE!
+Tests run: 21, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.541 s <<< FAILURE! - in TestSuite
+CheckingGetColorMethodTest.testColor[100, 5.0, RED](1)  Time elapsed: 0.004 s  <<< FAILURE!
 java.lang.AssertionError
 	at CheckingGetColorMethodTest.testColor(CheckingGetColorMethodTest.java:9)
 
@@ -10,15 +10,21 @@ CheckingGetColorMethodTest.testColor[100, 5.0, ](1)  Time elapsed: 0 s  <<< FAIL
 java.lang.AssertionError
 	at CheckingGetColorMethodTest.testColor(CheckingGetColorMethodTest.java:9)
 
-CheckingWriteMethodPartOfWordTest.testWritePartOfWord[Dog, 3, 1.1](1)  Time elapsed: 0.002 s  <<< FAILURE!
-java.lang.AssertionError: expected [Do] but found [Dog]
-	at CheckingWriteMethodPartOfWordTest.testWritePartOfWord(CheckingWriteMethodPartOfWordTest.java:21)
+CheckingWriteMethodTest.testReturnsCorrectWord[A book with images, 7, 0.75](7)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at CheckingWriteMethodTest.testReturnsCorrectWord(CheckingWriteMethodTest.java:29)
 
-CheckingWriteMethodPartOfWordTest.testWritePartOfWord[A book with images, 7, 0.75](3)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: expected [A book wi] but found [A book ]
-	at CheckingWriteMethodPartOfWordTest.testWritePartOfWord(CheckingWriteMethodPartOfWordTest.java:21)
+CheckingWriteMethodTest.testReturnsCorrectWord[Dog, 300, 110.1](8)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.StringIndexOutOfBoundsException: begin 0, end 300, length 3
+	at CheckingWriteMethodTest.testReturnsCorrectWord(CheckingWriteMethodTest.java:29)
 
-CheckingInkAmountAfterTypingTest.testInkAmountAfterTyping[Horse, 1, 0.5](2)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.AssertionError: expected [-1] but found [0]
-	at CheckingInkAmountAfterTypingTest.testInkAmountAfterTyping(CheckingInkAmountAfterTypingTest.java:21)
+CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException[Comp, 4, 0](1)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException(java.lang.String,int,double)[pri:0, instance:CheckingWorkMethodTestThrowsArithmExceptionTest@291ae] should have thrown an exception of type class java.lang.ArithmeticException
+
+CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException[, 0, 0](2)  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException(java.lang.String,int,double)[pri:0, instance:CheckingWorkMethodTestThrowsArithmExceptionTest@291ae] should have thrown an exception of type class java.lang.ArithmeticException
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.632" tests="32" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.541" tests="21" errors="0" skipped="0" failures="6">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\yuliya.yukhnovich\AppData\Local\Temp\surefire4974135488416226973\surefirebooter3918871361844502829.jar C:\Users\yuliya.yukhnovich\AppData\Local\Temp\surefire4974135488416226973 2022-01-29T18-56-25_263-jvmRun1 surefire6138186759487193950tmp surefire_014092249600827690474tmp"/>
+    <property name="sun.java.command" value="C:\Users\yuliya.yukhnovich\AppData\Local\Temp\surefire13070783897001362014\surefirebooter16206849682301623822.jar C:\Users\yuliya.yukhnovich\AppData\Local\Temp\surefire13070783897001362014 2022-01-30T17-05-41_255-jvmRun1 surefire5222273136654384198tmp surefire_02227432439061056256tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\yuliya.yukhnovich\IdeaProjects\homework\target\test-classes;C:\Users\yuliya.yukhnovich\IdeaProjects\homework\target\classes;C:\Users\yuliya.yukhnovich\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\yuliya.yukhnovich\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\yuliya.yukhnovich\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\slf4j\slf4j-api\1.7.33\slf4j-api-1.7.33.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\slf4j\slf4j-log4j12\1.7.33\slf4j-log4j12-1.7.33.jar;C:\Users\yuliya.yukhnovich\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.9.0\maven-compiler-plugin-3.9.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\yuliya.yukhnovich\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\codehaus\plexus\plexus-java\1.1.0\plexus-java-1.1.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\yuliya.yukhnovich\.m2\repository\com\thoughtworks\qdox\qdox\2.0.0\qdox-2.0.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.9.0\plexus-compiler-api-2.9.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.9.0\plexus-compiler-manager-2.9.0.jar;C:\Users\yuliya.yukhnovich\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.9.0\plexus-compiler-javac-2.9.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yuliya.yukhnovich\AppData\Local\Temp\surefire4974135488416226973\surefirebooter3918871361844502829.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yuliya.yukhnovich\AppData\Local\Temp\surefire13070783897001362014\surefirebooter16206849682301623822.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testColor[100, 5.0, RED](1)" classname="CheckingGetColorMethodTest" time="0.005">
+  <testcase name="testColor[100, 5.0, RED](1)" classname="CheckingGetColorMethodTest" time="0.004">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
 	at CheckingGetColorMethodTest.testColor(CheckingGetColorMethodTest.java:9)
 ]]></failure>
@@ -72,44 +72,39 @@ log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more in
 ]]></failure>
   </testcase>
   <testcase name="testPenWorkInability[0](1)" classname="CheckingIsWorkMethodTest" time="0"/>
-  <testcase name="testPenWorkInability[0](1)" classname="CheckingIsWorkMethodTest" time="0.001"/>
+  <testcase name="testPenWorkInability[0](1)" classname="CheckingIsWorkMethodTest" time="0"/>
   <testcase name="testPenWorkInability[-1](2)" classname="CheckingIsWorkMethodTest" time="0"/>
-  <testcase name="testPenWorkInability[-1](2)" classname="CheckingIsWorkMethodTest" time="0"/>
+  <testcase name="testPenWorkInability[-1](2)" classname="CheckingIsWorkMethodTest" time="0.001"/>
   <testcase name="testPenWorkability[1](1)" classname="CheckingIsWorkMethodTest" time="0"/>
   <testcase name="testPenWorkability[1](1)" classname="CheckingIsWorkMethodTest" time="0"/>
-  <testcase name="testPenWorkability[1000](2)" classname="CheckingIsWorkMethodTest" time="0"/>
-  <testcase name="testPenWorkability[1000](2)" classname="CheckingIsWorkMethodTest" time="0"/>
-  <testcase name="testWritePartOfWord[Dog, 3, 1.1](1)" classname="CheckingWriteMethodPartOfWordTest" time="0.002">
-    <failure message="expected [Do] but found [Dog]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Do] but found [Dog]
-	at CheckingWriteMethodPartOfWordTest.testWritePartOfWord(CheckingWriteMethodPartOfWordTest.java:21)
+  <testcase name="testPenWorkability[999](2)" classname="CheckingIsWorkMethodTest" time="0"/>
+  <testcase name="testPenWorkability[999](2)" classname="CheckingIsWorkMethodTest" time="0"/>
+  <testcase name="testReturnsCorrectWord[Horse, 0, 25](1)" classname="CheckingWriteMethodTest" time="0"/>
+  <testcase name="testReturnsCorrectWord[Flowers, -1, -5.5](2)" classname="CheckingWriteMethodTest" time="0"/>
+  <testcase name="testReturnsCorrectWord[Driver, 1, 1.0](3)" classname="CheckingWriteMethodTest" time="0"/>
+  <testcase name="testReturnsCorrectWord[Comp, 4, 1.0](4)" classname="CheckingWriteMethodTest" time="0"/>
+  <testcase name="testReturnsCorrectWord[Television, 15, 0.1](5)" classname="CheckingWriteMethodTest" time="0"/>
+  <testcase name="testReturnsCorrectWord[b, 1, 0.25](6)" classname="CheckingWriteMethodTest" time="0"/>
+  <testcase name="testReturnsCorrectWord[A book with images, 7, 0.75](7)" classname="CheckingWriteMethodTest" time="0.001">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at CheckingWriteMethodTest.testReturnsCorrectWord(CheckingWriteMethodTest.java:29)
 ]]></failure>
   </testcase>
-  <testcase name="testWritePartOfWord[Driver, 1, 1.0](2)" classname="CheckingWriteMethodPartOfWordTest" time="0.001"/>
-  <testcase name="testWritePartOfWord[A book with images, 7, 0.75](3)" classname="CheckingWriteMethodPartOfWordTest" time="0">
-    <failure message="expected [A book wi] but found [A book ]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [A book wi] but found [A book ]
-	at CheckingWriteMethodPartOfWordTest.testWritePartOfWord(CheckingWriteMethodPartOfWordTest.java:21)
+  <testcase name="testReturnsCorrectWord[Dog, 300, 110.1](8)" classname="CheckingWriteMethodTest" time="0">
+    <failure message="begin 0, end 300, length 3" type="java.lang.StringIndexOutOfBoundsException"><![CDATA[java.lang.StringIndexOutOfBoundsException: begin 0, end 300, length 3
+	at CheckingWriteMethodTest.testReturnsCorrectWord(CheckingWriteMethodTest.java:29)
 ]]></failure>
   </testcase>
-  <testcase name="testWriteCompleteWord[Comp, 4, 1.0](1)" classname="CheckingWriteMethodCompleteWordTest" time="0"/>
-  <testcase name="testWriteCompleteWord[Television, 15, 0.3](2)" classname="CheckingWriteMethodCompleteWordTest" time="0"/>
-  <testcase name="testWriteCompleteWord[b, 1, 0.25](3)" classname="CheckingWriteMethodCompleteWordTest" time="0"/>
-  <testcase name="testReturnsEmptyWord[Horse, 0](1)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testReturnsEmptyWord[Horse, 0](1)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testReturnsEmptyWord[Dog, -1](2)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testReturnsEmptyWord[Dog, -1](2)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testReturnsNotEmptyWord[H, 1](1)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testReturnsNotEmptyWord[H, 1](1)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testReturnsNotEmptyWord[Life, 5](2)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testReturnsNotEmptyWord[Life, 5](2)" classname="CheckingWriteMethodEmptyInkTest" time="0"/>
-  <testcase name="testInkAmountAfterTyping[Cat, 5, 1.0](1)" classname="CheckingInkAmountAfterTypingTest" time="0"/>
-  <testcase name="testInkAmountAfterTyping[Horse, 1, 0.5](2)" classname="CheckingInkAmountAfterTypingTest" time="0.001">
-    <failure message="expected [-1] but found [0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [-1] but found [0]
-	at CheckingInkAmountAfterTypingTest.testInkAmountAfterTyping(CheckingInkAmountAfterTypingTest.java:21)
+  <testcase name="testExpectedArithmeticException[Comp, 4, 0](1)" classname="CheckingWorkMethodTestThrowsArithmExceptionTest" time="0">
+    <failure message="&#10;Method CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException(java.lang.String,int,double)[pri:0, instance:CheckingWorkMethodTestThrowsArithmExceptionTest@291ae] should have thrown an exception of type class java.lang.ArithmeticException" type="org.testng.TestException"><![CDATA[org.testng.TestException: 
+
+Method CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException(java.lang.String,int,double)[pri:0, instance:CheckingWorkMethodTestThrowsArithmExceptionTest@291ae] should have thrown an exception of type class java.lang.ArithmeticException
 ]]></failure>
   </testcase>
-  <testcase name="testInkAmountAfterTyping[The mouse, 7, 0](3)" classname="CheckingInkAmountAfterTypingTest" time="0"/>
-  <testcase name="testInkAmountAfterTyping[, 10, 2.5](4)" classname="CheckingInkAmountAfterTypingTest" time="0"/>
-  <testcase name="testNotNullResult[5, 1.0, RED](1)" classname="CheckingDoSomethingElseMethodTest" time="0"/>
-  <testcase name="testNotNullResult[1, 0.5, GREEN](2)" classname="CheckingDoSomethingElseMethodTest" time="0"/>
-  <testcase name="testNotNullResult[7, 0, ](3)" classname="CheckingDoSomethingElseMethodTest" time="0"/>
+  <testcase name="testExpectedArithmeticException[, 0, 0](2)" classname="CheckingWorkMethodTestThrowsArithmExceptionTest" time="0.001">
+    <failure message="&#10;Method CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException(java.lang.String,int,double)[pri:0, instance:CheckingWorkMethodTestThrowsArithmExceptionTest@291ae] should have thrown an exception of type class java.lang.ArithmeticException" type="org.testng.TestException"><![CDATA[org.testng.TestException: 
+
+Method CheckingWorkMethodTestThrowsArithmExceptionTest.testExpectedArithmeticException(java.lang.String,int,double)[pri:0, instance:CheckingWorkMethodTestThrowsArithmExceptionTest@291ae] should have thrown an exception of type class java.lang.ArithmeticException
+]]></failure>
+  </testcase>
 </testsuite>
